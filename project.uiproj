@@ -1,0 +1,6 @@
+{
+  "Name": "Thales_TechnicalTest",
+  "ProjectType": "Process",
+  "Description": "Technical Test using REFramework",
+  "MainFile": "Main.xaml"
+}
