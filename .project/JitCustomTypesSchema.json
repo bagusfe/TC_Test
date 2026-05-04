@@ -1,0 +1,737 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "-1281626997",
+        "bundleName": "DeserializeJSON9ff21b",
+        "entitiesBundle": {
+          "Types": {
+            "DeserializeJSON9ff21b": {
+              "name": "DeserializeJSON9ff21b",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"id\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"id\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"name\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"name\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "username",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"username\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"username\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "email",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"email\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"email\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "address",
+                  "type": {
+                    "definitionName": "address"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"address\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"address\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "phone",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"phone\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"phone\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "website",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"website\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"website\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "company",
+                  "type": {
+                    "definitionName": "company"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"company\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"company\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": null
+            },
+            "address": {
+              "name": "address",
+              "properties": [
+                {
+                  "name": "street",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"street\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"street\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "suite",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"suite\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"suite\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "city",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"city\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"city\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "zipcode",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"zipcode\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"zipcode\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "geo",
+                  "type": {
+                    "definitionName": "geo"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"geo\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"geo\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": null
+            },
+            "geo": {
+              "name": "geo",
+              "properties": [
+                {
+                  "name": "lat",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"lat\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"lat\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "lng",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"lng\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"lng\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": null
+            },
+            "company": {
+              "name": "company",
+              "properties": [
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"name\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"name\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "catchPhrase",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"catchPhrase\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"catchPhrase\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "bs",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"bs\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"bs\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": null
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.Web.Activities.ViewModels.SWEntities.DeserializeJSON9ff21b",
+        "hash": "LTEyODE2MjY5OTc",
+        "assemblyName": "DeserializeJSON9ff21.UAMni1MsHnG1wBX392jWrRo3"
+      }
+    }
+  ]
+}
